@@ -4,7 +4,7 @@ code for the rows
 .flexRow {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
+  flex-direction: center;
 }
 
 .card {
@@ -19,5 +19,99 @@ code for the rows
 }
 
 .dessertRow {
+  /* margin: auto; */
+  /* text-align: center; */
+  /* display: flex;
+  flex-direction: center */
+}
+
+.centerRow {
+  display: flex;
+  flex-direction: center;
+}
+
+/* ///////
+bbcrumbcake
+/////// */
+
+.bluberrycrumbcake-main {
+  /* display: flex; */
+  flex-wrap: wrap;
+  text-align: left;
+  margin: 10px;
+
+}
+
+.bbcrumbs {
+  border-radius: 5%;
+
+  width: 500px;
+  height: 300px
+}
+
+.jumbo {
+  width: 950px;
+  height: 450px;
+  background-image: url('https://scontent.fzty1-1.fna.fbcdn.net/v/t1.0-9/75199833_101038734692121_8139194159585034240_n.jpg?_nc_cat=110&_nc_oc=AQmSS18BDSoRADw6ZsZEnaLsYQKQYwoAbIT2T-saf8CTro7IG6mL3RQtlzkSTsbB3UJkNH4YkKUYRCeIoqjWyTpg&_nc_ht=scontent.fzty1-1.fna&oh=1247d7010895d3107d5c5382e0679a27&oe=5E431AA9')
+}
+
+.herobanner {
+  background-image: url("https://scontent.fzty1-1.fna.fbcdn.net/v/t1.0-9/75199833_101038734692121_8139194159585034240_n.jpg?_nc_cat=110&_nc_oc=AQmSS18BDSoRADw6ZsZEnaLsYQKQYwoAbIT2T-saf8CTro7IG6mL3RQtlzkSTsbB3UJkNH4YkKUYRCeIoqjWyTpg&_nc_ht=scontent.fzty1-1.fna&oh=1247d7010895d3107d5c5382e0679a27&oe=5E431AA9");
+  background-size: cover;
+}
+
+.customImageTag {
+  height: 100px;
+  width: 100px;
+  object-fit: cover
+}
+
+.car {
+  width: 1250px;
+  height: 400px
+}
+
+
+.carousel-initialized {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1000px;
+  height: 400px;
+  margin: auto
+}
+
+/* .jumbo {
+  background-image: url ("https://scontent.fzty1-1.fna.fbcdn.net/v/t1.0-9/75199833_101038734692121_8139194159585034240_n.jpg?_nc_cat=110&_nc_oc=AQmSS18BDSoRADw6ZsZEnaLsYQKQYwoAbIT2T-saf8CTro7IG6mL3RQtlzkSTsbB3UJkNH4YkKUYRCeIoqjWyTpg&_nc_ht=scontent.fzty1-1.fna&oh=1247d7010895d3107d5c5382e0679a27&oe=5E431AA9")
+} */
+
+
+.hero-image {
+  display: flex;
+  flex-direction: center;
+  /* float: center; */
+  background-image: url("https://scontent.fzty1-1.fna.fbcdn.net/v/t1.0-9/75199833_101038734692121_8139194159585034240_n.jpg?_nc_cat=110&_nc_oc=AQmSS18BDSoRADw6ZsZEnaLsYQKQYwoAbIT2T-saf8CTro7IG6mL3RQtlzkSTsbB3UJkNH4YkKUYRCeIoqjWyTpg&_nc_ht=scontent.fzty1-1.fna&oh=1247d7010895d3107d5c5382e0679a27&oe=5E431AA9");
+
+
+  width: 950px;
+  height: 600px;
+  object-fit: cover;
+}
+
+.hero-text {
+  color: white;
+}
+
+/* ///////
+nav bar
+/////// */
+
+.floatNav {
+  float: left;
+  width: 200px;
+  height: 600px;
+  margin-right: px;
+}
+
+.title {
   text-align: center;
 }

@@ -1,23 +1,27 @@
 import React from 'react';
-import { Jumbotron, Button } from 'reactstrap';
+import {
+  Card, CardImg, CardText, CardBody,
+  CardTitle, CardSubtitle, Button
+} from 'reactstrap';
+import { FittedImage } from 'react-fitted-image'
 
 
-
+// var image = "https://scontent.fzty1-1.fna.fbcdn.net/v/t1.0-9/75199833_101038734692121_8139194159585034240_n.jpg?_nc_cat=110&_nc_oc=AQmSS18BDSoRADw6ZsZEnaLsYQKQYwoAbIT2T-saf8CTro7IG6mL3RQtlzkSTsbB3UJkNH4YkKUYRCeIoqjWyTpg&_nc_ht=scontent.fzty1-1.fna&oh=1247d7010895d3107d5c5382e0679a27&oe=5E431AA9"
 
 const Landing = (props) => {
   return (
-    <div>
-      <Jumbotron>
-        <h1 className="display-3">Hello, Amatuer Chefs!</h1>
-        <p className="lead">This is a simple hero unit, a simple Jumbotron-style component for calling extra attention to featured content or information.</p>
-        <hr className="my-2" />
-        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-        <p className="lead">
-          <Button color="primary">Learn More</Button>
-        </p>
-      </Jumbotron>
+    <div className="test">
+      <div className="hero-image">
+        <div className="hero-text">
+          <h1>Apple Cinnomon Crumb Cake.</h1>
+          <p>& so easy to make.</p>
+          <button>Hire me</button>
+        </div>
+      </div>
+
     </div>
   );
 };
 
 export default Landing;
+
