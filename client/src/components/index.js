@@ -29,7 +29,7 @@ import {
 //Functional Component 
 const MainPage = () => {
   return (
-    <div>
+    <div className="landingPage">
       {/* <Link to="/users">Show List of Users</Link> */}
       {/* <Link to="/test">Show Test Component</Link> */}
       {/* <Link to="/recipecards">Show Cards</Link> */}
@@ -37,23 +37,42 @@ const MainPage = () => {
 
       <TopBar />
       <NavigationBar />
-      <Landing />
+      {/* <Landing /> */}
 
       <Switch>
         <Route path="/recipecards" component={RecipeCards} />
 
       </Switch>
 
+      {/* <div className="land"> */}
+
+      {/* <div className="top-pic"> */}
+
+      {/* <img width="950px" height="550px" margin-left="100px" src="https://scontent.fzty1-1.fna.fbcdn.net/v/t1.0-9/75199833_101038734692121_8139194159585034240_n.jpg?_nc_cat=110&_nc_oc=AQnmbG9AG3ph8F3yaWLWlzBnsRpg2O9yB08FoxhsMnAM-MqP3q7-lCfRqvwIkYrmCRkliSkYhov7FUPTUSFp002U&_nc_ht=scontent.fzty1-1.fna&oh=95f3afe99997b9b585751d984c8798f0&oe=5E431AA9"></img> */}
+
+      {/* <h1>Apple Cinnomon Crumb Cake.</h1>
+        <p>& so easy to make.</p>
+        <button>Hire me</button> */}
+      {/* <p>jsbdksdbjsbjsd</p> */}
+
+      {/* </div> */}
+
+      <div className="top">
+
+
+        {/* <img width="950px" height="550px" margin-left="100px" src="https://scontent.fzty1-1.fna.fbcdn.net/v/t1.0-9/75199833_101038734692121_8139194159585034240_n.jpg?_nc_cat=110&_nc_oc=AQnmbG9AG3ph8F3yaWLWlzBnsRpg2O9yB08FoxhsMnAM-MqP3q7-lCfRqvwIkYrmCRkliSkYhov7FUPTUSFp002U&_nc_ht=scontent.fzty1-1.fna&oh=95f3afe99997b9b585751d984c8798f0&oe=5E431AA9"></img> */}
+
+      </div>
+
+
 
 
       {/* <RecipeCards /> */}
 
-      <div className="test">
-        <div>
-          {/* <div className="dessertRow"> */}
-          {/* <h1>Desserts</h1> */}
-          {/* </div> */}
-          <div className="flexRow">
+      <div className="flex-row">
+
+        <div className="flex-row">
+          <div >
             <Card className="card">
               <CardImg top width="100%" src="https://scontent.fzty1-1.fna.fbcdn.net/v/t1.0-9/76781371_101039028025425_1472592750762262528_n.jpg?_nc_cat=111&_nc_oc=AQkh3LCvHWk8N-VQbTPxr5vvnLXKMbSTXA34gMjvIKJgX0ad1TgqASDqchONR8zWsOGoCl_SNhDoE1sKEeKFsEIF&_nc_ht=scontent.fzty1-1.fna&oh=75bce418c18fc26d32f27ea91615179f&oe=5E55537C" alt="Card image cap" />
               <CardBody>
@@ -63,12 +82,11 @@ const MainPage = () => {
 
                 {/* <Button>Check It Out</Button> */}
                 <Link to="/BlueBerryCrumbCake">Check It Out</Link>
-
-
-
               </CardBody>
             </Card>
+          </div>
 
+          <div className="flex-row">
 
             <Card className="card">
               <CardImg top width="100%" src="https://scontent.fzty1-1.fna.fbcdn.net/v/t1.0-9/72474919_101038691358792_5495923676190605312_n.jpg?_nc_cat=111&_nc_oc=AQkWwrlUJUxoLQnBBfWk9-m9JAzpWhbSiLre0iQTLWmi7EBBSVoxsr_y4s0A1XYzVwuOVDkEcm8nvUrtP4pBKrEk&_nc_ht=scontent.fzty1-1.fna&oh=36401df83d9be13153cee2c840190c1d&oe=5E5A0FF6" alt="Card image cap" />
@@ -79,6 +97,10 @@ const MainPage = () => {
                 <Button>Check It Out</Button>
               </CardBody>
             </Card>
+          </div>
+
+          <div className="flex-row">
+
 
             <Card className="card">
               <CardImg top width="100%" src="https://scontent.fzty1-1.fna.fbcdn.net/v/t1.0-9/75199833_101038734692121_8139194159585034240_n.jpg?_nc_cat=110&_nc_oc=AQnmbG9AG3ph8F3yaWLWlzBnsRpg2O9yB08FoxhsMnAM-MqP3q7-lCfRqvwIkYrmCRkliSkYhov7FUPTUSFp002U&_nc_ht=scontent.fzty1-1.fna&oh=95f3afe99997b9b585751d984c8798f0&oe=5E431AA9" alt="Card image cap" />
@@ -89,11 +111,9 @@ const MainPage = () => {
                 <Button>Check It Out</Button>
               </CardBody>
             </Card>
-
           </div>
 
         </div>
-
 
         <div>
           <Switch>
@@ -109,9 +129,9 @@ const MainPage = () => {
 
       {/* <RecipeCards2 /> */}
 
-      <div>
-        <div className="centerRow">
-          <div className="flexRow">
+      <div className="flex-row">
+        <div className="flex-row" >
+          <div className="flex-row">
             <Card className="card">
               <CardImg top width="100%" src="https://scontent.fzty1-1.fna.fbcdn.net/v/t1.0-9/74483659_101174771345184_5297334696345075712_n.jpg?_nc_cat=110&_nc_oc=AQmk_JiH1BIXl2yS1vUYgrWl8mZVsMpcY1wNoLHpeykMjPkJqVRA7T4SAmcAyQVYIskW_n8BrVzNYufcBjNDE8tR&_nc_ht=scontent.fzty1-1.fna&oh=a7899d6b4a503906d0d30299b607712c&oe=5E64561B" alt="Card image cap" />
               <CardBody>
@@ -146,9 +166,8 @@ const MainPage = () => {
         </div>
 
       </div>
+    </div>
 
-
-    </div >
   );
 };
 

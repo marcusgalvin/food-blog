@@ -7,19 +7,16 @@ const NavigationBar = (props) => {
       <p>Navigation</p>
       <Nav vertical>
         <NavItem>
-          <NavLink href="#">Link</NavLink>
+          <NavLink href="#">Appetizers</NavLink>
         </NavItem>
         <NavItem>
-          <NavLink href="#">Link</NavLink>
+          <NavLink href="#">Lunch</NavLink>
         </NavItem>
         <NavItem>
-          <NavLink href="#">Another Link</NavLink>
+          <NavLink href="#">Dinners</NavLink>
         </NavItem>
         <NavItem>
-          <NavLink disabled href="#">Disabled Link</NavLink>
-        </NavItem>
-        <NavItem>
-          <NavLink disabled href="#">Disabled Link</NavLink>
+          <NavLink disabled href="#">Desserts</NavLink>
         </NavItem>
         <NavItem>
           <NavLink disabled href="#">Disabled Link</NavLink>
@@ -30,18 +27,7 @@ const NavigationBar = (props) => {
         <NavItem>
           <NavLink disabled href="#">Disabled Link</NavLink>
         </NavItem>
-        <NavItem>
-          <NavLink disabled href="#">Disabled Link</NavLink>
-        </NavItem>
-        <NavItem>
-          <NavLink disabled href="#">Disabled Link</NavLink>
-        </NavItem>
-        <NavItem>
-          <NavLink disabled href="#">Disabled Link</NavLink>
-        </NavItem>
-        <NavItem>
-          <NavLink disabled href="#">Disabled Link</NavLink>
-        </NavItem>
+
       </Nav>
       <hr />
 

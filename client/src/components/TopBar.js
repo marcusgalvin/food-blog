@@ -19,8 +19,8 @@ const TopBar = (props) => {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <div>
-      <Navbar color="light" light expand="md">
+    <div className="topbar">
+      <Navbar color="black" light expand="md">
         <div className="title">
           <h2>Cooking Blog</h2>
         </div>

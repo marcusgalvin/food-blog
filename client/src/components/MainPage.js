@@ -15,7 +15,7 @@ const MainPage = () => {
 
       {/* <NavigationBar />
       <Landing /> */}
-      <RecipeCards />
+      {/* <RecipeCards /> */}
       {/* <RecipeCards2 /> */}
 
     </div>

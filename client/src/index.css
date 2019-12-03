@@ -2,9 +2,9 @@
 code for the rows
 /////// */
 .flexRow {
-  display: flex;
+  /* display: flex;
   flex-wrap: wrap;
-  flex-direction: center;
+  flex-direction: center; */
 }
 
 .card {
@@ -85,16 +85,22 @@ bbcrumbcake
 } */
 
 
-.hero-image {
+.top-pic {
   display: flex;
-  flex-direction: center;
+  flex-wrap: wrap;
+  /* margin: auto; */
+  /* background-size: 100%; */
+  overflow: hidden;
+  background-size: cover;
+  /* flex-direction: center; */
   /* float: center; */
-  background-image: url("https://scontent.fzty1-1.fna.fbcdn.net/v/t1.0-9/75199833_101038734692121_8139194159585034240_n.jpg?_nc_cat=110&_nc_oc=AQmSS18BDSoRADw6ZsZEnaLsYQKQYwoAbIT2T-saf8CTro7IG6mL3RQtlzkSTsbB3UJkNH4YkKUYRCeIoqjWyTpg&_nc_ht=scontent.fzty1-1.fna&oh=1247d7010895d3107d5c5382e0679a27&oe=5E431AA9");
+  background-image: url("https://scontent.fzty1-1.fna.fbcdn.net/v/t1.0-9/72474919_101038691358792_5495923676190605312_n.jpg?_nc_cat=111&_nc_oc=AQkWwrlUJUxoLQnBBfWk9-m9JAzpWhbSiLre0iQTLWmi7EBBSVoxsr_y4s0A1XYzVwuOVDkEcm8nvUrtP4pBKrEk&_nc_ht=scontent.fzty1-1.fna&oh=36401df83d9be13153cee2c840190c1d&oe=5E5A0FF6");
 
 
   width: 950px;
   height: 600px;
-  object-fit: cover;
+  /* margin: 20px; */
+  /* object-fit: cover; */
 }
 
 .hero-text {
@@ -106,12 +112,52 @@ nav bar
 /////// */
 
 .floatNav {
+  display: flex;
+  flex-wrap: wrap;
   float: left;
   width: 200px;
-  height: 600px;
-  margin-right: px;
+  height: 340px;
+  /* margin-right: px; */
+  background-color: black;
+  /* position: fixed */
+  /* overflow: auto */
 }
 
 .title {
   text-align: center;
+}
+
+.topbar {
+  background-color: grey;
+}
+
+.land {
+  display: flex;
+  flex: wrap;
+  /* flex-direction: row; */
+
+}
+
+.flex-row {
+
+  float: right;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: center;
+
+}
+
+.top {
+  float: right;
+  display: flex;
+  flex-wrap: wrap;
+  /* margin: auto; */
+  /* background-size: 100%; */
+  overflow: hidden;
+  background-size: cover;
+
+  background-image: url("https://scontent.fzty1-1.fna.fbcdn.net/v/t1.0-9/72474919_101038691358792_5495923676190605312_n.jpg?_nc_cat=111&_nc_oc=AQkWwrlUJUxoLQnBBfWk9-m9JAzpWhbSiLre0iQTLWmi7EBBSVoxsr_y4s0A1XYzVwuOVDkEcm8nvUrtP4pBKrEk&_nc_ht=scontent.fzty1-1.fna&oh=36401df83d9be13153cee2c840190c1d&oe=5E5A0FF6");
+
+  width: 950px;
+  height: 600px;
 }
